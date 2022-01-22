@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="w-screen">
+      <div className="w-screen overflow-x-hide">
         <div className="h-screen lg:h-auto">
             <Header/>
             <FrontPage />
