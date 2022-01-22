@@ -30,7 +30,7 @@ function FrontPage() {
                             <div className="flex">
                                 {
                                     [...Array(5)].map((_, i)=>(
-                                    <StarIcon className="w-4 text-yellow-400"/>
+                                    <StarIcon key={i} className="w-4 text-yellow-400"/>
                                     ))
                                 }
                                 
